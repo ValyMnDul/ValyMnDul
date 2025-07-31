@@ -13,16 +13,71 @@ body{
 }
 
 nav{
+    user-select: none;
     position: fixed;
-    width: 300px;
+    width: 400px;
     min-width: 200px;
     height: 100vh;
-    background-color: aqua;
+    background-color:rgb(42, 42, 42);
+    border-right: 1px dashed rgb(107, 107, 107) ;
+}
+
+nav > .photo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:30px 0;
+}
+
+nav > .photo > img{
+    width: 320px;
+    height: 320px;
+    border: white 3px solid;
+    border-radius: 50%;
+}
+
+nav > .photo > h1{
+    color:white;
+    font-size: 2em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+nav > .navLinks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px
+}
+
+nav > .navLinks > div{
+    width: 170px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+nav > .navLinks > div > i{
+    color: rgb(149, 149, 149);
+    font-size: 1.7em;
+}
+
+nav > .navLinks > div > p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4em;
+    font-weight: 700;
 }
 
 main{
-    margin-left: 300px;
+    margin-left: 400px;
     width: 100%;
     height: auto;
-    background-color: aquamarine;
+    background-color:rgb(42, 42, 42);
 }
