@@ -1,0 +1,28 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body,html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+}
+
+nav{
+    position: fixed;
+    width: 300px;
+    min-width: 200px;
+    height: 100vh;
+    background-color: aqua;
+}
+
+main{
+    margin-left: 300px;
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+}
