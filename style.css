@@ -153,3 +153,50 @@ main{
     height: auto;
     background-color:rgb(42, 42, 42);
 }
+
+main > #home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main > #home > h2{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 5em;
+    font-weight: 900;
+}
+
+main > #home > h1{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #6c96e5;
+    font-size: 5em;
+    font-weight: 900;
+}
+
+main > #home > p{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+main > #home > i{
+    margin: 0;
+    margin-top: 100px;
+    color: white;
+    font-size: 3em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+main > #about{
+    width: 100%;
+    height: 100vh;
+}
