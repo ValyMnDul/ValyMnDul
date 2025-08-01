@@ -1,7 +1,7 @@
-## https://valymnd.me
 
 <h2 align="left">Hi 👋! My name is ValyMnDul and I'm a student, from Romania 🇷🇴</h2>
 
+## Portfolio: https://valymnd.me
 
 <div align="left">
     <a href="https://www.linkedin.com/in/vasile-valentin-mindrila" target="_blank">
