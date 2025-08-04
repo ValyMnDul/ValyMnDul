@@ -30,7 +30,7 @@ nav{
     position: fixed;
     width: 400px;
     min-width: 200px;
-    height: 100vh;
+    height: 100dvh;
     background-color:rgb(42, 42, 42);
     border-right: 2px solid rgb(255, 255, 255) ;
     display: flex;
