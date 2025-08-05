@@ -388,6 +388,41 @@ main > #certificates > h2{
     user-select: none;
 }
 
-main > #certificates > div{
-    height: 500px;
+main > #certificates > div {
+    display:flex;
+    column-gap: 20px;
 }
+
+main > #certificates > div > div {
+    width: 350px;
+    height: 500px;
+    border: 3px white solid;
+    border-radius: 18px;
+    background-color: grey;
+    padding: 10px;
+}
+
+main > #certificates > div > div > div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 250px;
+}
+
+main > #certificates > div > div > div > img {
+    border-radius: 10px;
+    user-select: none;
+}
+
+main > #certificates > div > div > h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+main > #certificates > div > div > p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
