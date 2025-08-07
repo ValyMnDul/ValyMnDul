@@ -78,7 +78,7 @@
       <section id="skills">
         <h2>Skills</h2>
         <div>
-          <div style="background-color: #6c96e5;">
+          <div style="background-color: #7f95bd;">
             <div>
               <img src="Portfolio_Assets/Skills/nextjs.png" style="width: 80px; height: 80px; margin-top: 10px;">
               <p style="padding-top: 7px;">Next.js</p>
@@ -91,7 +91,7 @@
               <p>99%</p>
             </bar>
           </div>
-          <div style="background-color: #376aca;">
+          <div style="background-color: #7082a587;">
             <div>
               <img src="Portfolio_Assets/Skills/tailwind.png">
               <p>Tailwind</p>
@@ -104,7 +104,7 @@
               <p>80%</p>
             </bar>
           </div>
-          <div style="background-color: #1f59c5; padding-right: 10px;">
+          <div style="background-color: #7082a587; padding-right: 10px;">
             <div>
               <img src="Portfolio_Assets/Skills/html.png" style="width: 130px;">
               <p>HTML</p>
@@ -117,7 +117,7 @@
               <p>97%</p>
             </bar>
           </div>
-          <div style="background-color: #6c96e5;">
+          <div style="background-color: #7f95bd;">
             <div>
               <img src="Portfolio_Assets/Skills/css.png">
               <p>CSS</p>
@@ -130,7 +130,7 @@
               <p>99%</p>
             </bar>
           </div>
-          <div style="background-color: #376aca;">
+          <div style="background-color: #7082a587;">
             <div style="row-gap: 12px;">
               <img src="Portfolio_Assets/Skills/javascript.png" style="border-radius: 35px; width: 90px; height: 90px;">
               <p>Javascript</p>
@@ -143,7 +143,7 @@
               <p>87%</p>
             </bar>
           </div>
-          <div style="background-color: #1f59c5;">
+          <div style="background-color: #7082a587;">
             <div style="row-gap: 12px;">
               <img src="Portfolio_Assets/Skills/typescript.png" style="width: 120px; height: 90px;border-radius: 50%;">
               <p>Typescript</p>
@@ -156,7 +156,7 @@
               <p>87%</p>
             </bar>
           </div>
-          <div style="background-color: #6c96e5;">
+          <div style="background-color: #7f95bd;">
             <div>
               <img src="Portfolio_Assets/Skills/cpp.png">
               <p>C++</p>
@@ -169,7 +169,7 @@
               <p>99%</p>
             </bar>
           </div>
-          <div style="background-color: #376aca;">
+          <div style="background-color: #7082a587;">
             <div>
               <img src="Portfolio_Assets/Skills/python.png">
               <p>Python</p>
@@ -182,7 +182,7 @@
               <p>82%</p>
             </bar>
           </div>
-          <div style="background-color: #1f59c5;">
+          <div style="background-color: #7082a587;">
             <div style="row-gap: 10px;">
               <img src="Portfolio_Assets/Skills/git.png" style="width: 90px; height: 90px; margin-right: 10px;">
               <p>GIT</p>
@@ -201,8 +201,8 @@
 
       <section id="certificates">
         <h2>Certificates</h2>
-        <div>
-          <div>
+        <div id="certificateDiv">
+          <div id="1">
             <div>
               <img src="Portfolio_Assets/Certificates/cybersecurity.png" alt="Cybersecurity" width="324px" height="229.06px">
             </div>
@@ -210,7 +210,7 @@
             <p>Proud to have earned a Mention at the Cybersecurity Olympiad by “Spiru Haret” National College.</p>
           </div>
 
-          <div>
+          <div id="2">
             <div>
               <img src="Portfolio_Assets/Certificates/heighborhood.png" alt="Neighborhood" width="324px">
             </div>
@@ -218,24 +218,34 @@
             <p>The certificate offered by Hack Club for the Neighborhood program.</p>
           </div>
 
-          <!-- <div>
-            <div>
-              <img src="Portfolio_Assets/Certificates/hackovina.png" alt="Hackovina" width="324px" height="229.06px">
-            </div>
-            <h3>Hackovina</h3>
-            <p>Thrilled to have won 1st place at Hackovina, a hackathon organized by Hack Club!</p>
-          </div> -->
-          <div>
+          <div id="3">
             <div>
               <img src="Portfolio_Assets/Certificates/infoeducatia.png" alt="InfoEducatia" width="324px" height="229.06px">
             </div>
             <h3>InfoEducatia</h3>
             <p>Participated in the County Stage of the InfoEducatia National Olympiad of Informatics.</p>
           </div>
+
+          <div id="4">
+            <div>
+              <img src="Portfolio_Assets/Certificates/hackovina.png" alt="Hackovina" width="324px" height="229.06px">
+            </div>
+            <h3>Hackovina</h3>
+            <p>Thrilled to have won 1st place at Hackovina, a hackathon organized by Hack Club!</p>
+          </div>
+
         </div>
+        <arrows>
+          <div id="leftArrow" style="margin-right: 10px;" onclick="leftArrowClick(-1)"><</div>
+          <div onclick="window.location.href='#1'">·</div>
+          <div onclick="window.location.href='#2'">·</div>
+          <div onclick="window.location.href='#3'">·</div>
+          <div onclick="window.location.href='#4'">·</div>
+          <div id="rightArrow" style="margin-left: 10px;" onclick="leftArrowClick(1)">></div>
+        </arrows>
       </section>
 
     </main>
-    <script src=""></script>
+    <script src="script.js"></script>
   </body>
 </html>

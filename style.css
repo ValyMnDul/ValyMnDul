@@ -384,13 +384,27 @@ main > #certificates > h2{
     margin: 0;
     font-family: 'Poppins', sans-serif;
     color: white;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     user-select: none;
+    margin-left: -5px;
 }
 
 main > #certificates > div {
     display:flex;
     column-gap: 20px;
+    width: 1115px;
+    overflow-x: scroll;
+    padding: 10px;
+    border: solid rgb(84, 84, 84) 3px;
+    background-color: rgb(52, 52, 52);
+    border-radius: 20px;
+    margin-left: -10px;
+    scroll-behavior: smooth;
+    outline: none;
+}
+
+main > #certificates > div::-webkit-scrollbar {
+    display: none;
 }
 
 main > #certificates > div > div {
@@ -400,6 +414,7 @@ main > #certificates > div > div {
     border-radius: 18px;
     background-color: grey;
     padding: 10px;
+    cursor: pointer;
 }
 
 main > #certificates > div > div > div{
@@ -424,5 +439,20 @@ main > #certificates > div > div > p{
     font-family: 'Poppins', sans-serif;
     font-size: 1.2em;
     text-align: center;
+}
+
+main > #certificates > arrows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    user-select: none;
+}
+
+main > #certificates > arrows > div{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    cursor: pointer;
 }
 
