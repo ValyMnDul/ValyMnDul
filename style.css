@@ -459,7 +459,7 @@ main > #certificates > arrows > div{
 
 main > #projects {
     width: 100%;
-    height: 100vh;
+    height: auto;
     padding-left: 200px;
     padding-right: 200px;
     display: flex;
@@ -470,8 +470,91 @@ main > #projects {
 main > #projects > h2{
     font-size: 2.5em;
     margin: 0;
+    margin-top: 80px;
     font-family: 'Poppins', sans-serif;
     color: white;
     margin-bottom: 50px;
     user-select: none;
+}
+
+
+main > #projects > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    width: 1100px;
+    padding:15px;
+    border: solid rgb(84, 84, 84) 3px;
+    background-color: rgb(52, 52, 52);
+    border-radius: 20px;
+    outline: none;
+}
+
+main > #projects > div > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1070px;
+    height: 300px;
+    background-color: rgb(102, 102, 102);
+    border-radius: 20px;
+}
+
+main > #projects > div > div > img{
+    border-radius: 0px;
+    height: 100%;
+    border-radius: 20px;
+    border-right: #5980c9 solid 5px;
+    width: 538px;
+} 
+
+main > #projects > div > div > div {
+    width: 500px;
+    height: 90%;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+main > #projects > div > div > div > h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.7em;
+    margin: 0px;
+    text-align: left;
+    margin-left: 10px;
+    color: #b5e0ff;
+}
+
+main > #projects > div > div > div > p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    margin-left: 10px;
+    color: #f7f7f7;
+}
+
+main > #projects > div > div > div > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+main > #projects > div > div > div > div > div{
+    width: 140px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 1.1em;
+    font-weight: 500;
+    cursor: pointer;
 }
