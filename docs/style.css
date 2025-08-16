@@ -25,6 +25,26 @@ body{
     display: flex;
 }
 
+.staticHomeBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(64, 64, 64);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.staticHomeBtn > i{
+    color: white;
+    font-size: 1.4em;
+}
+
 nav{
     user-select: none;
     position: fixed;
@@ -46,6 +66,7 @@ nav > .photo{
     align-items: center;
     flex-direction: column;
     margin:30px 0;
+    margin-bottom: 0;;
 }
 
 nav > .photo > img{
@@ -58,7 +79,8 @@ nav > .photo > img{
 nav > .photo > h1{
     color:white;
     font-size: 2em;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0;;
 }
 
 nav > .navLinks {
@@ -68,6 +90,7 @@ nav > .navLinks {
     align-items: center;
     flex-direction: column;
     gap:10px;
+    margin-bottom: 20px;
 }
 
 nav > .navLinks > div{
@@ -99,12 +122,13 @@ nav > .navLinks > div > p{
 }
 
 nav > .options {
-    margin:30px 10px;
-    margin-top: 70px;
+
     display: flex;
     width: 100%;
     justify-content: space-between;
     padding: 0 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 nav > .options > i{
