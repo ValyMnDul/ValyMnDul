@@ -666,3 +666,22 @@ main > #team > div > div > div > div{
     cursor: pointer;
     user-select: none;
 }
+
+main > #contact {
+    width: 100%;
+    height: 100vh;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main > #contact > h2{
+    font-size: 2.5em;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-bottom: 50px;
+    user-select: none;
+}
