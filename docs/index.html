@@ -318,7 +318,34 @@
       </section>
       <section id="contact">
         <h2>Contact</h2>
-        
+        <formdiv>
+          <form id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" name="name" required maxlength="70" placeholder="Your Name">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" required maxlength="70" placeholder="Your Email">
+
+            <label for="message">Message</label>
+            <textarea name="message" required maxlength="1000" placeholder="Tell me your Message"></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+          <p id="form-status"></p>
+        </formdiv>
+        <div>
+          <div>
+            <i onclick="window.open('https://www.instagram.com/valymnd/')" class="fa-brands fa-instagram"></i>
+            <i onclick="window.open('https://github.com/ValyMnDul')" class="fa-brands fa-github"></i>
+            <i onclick="window.open('https://www.linkedin.com/in/vasilemindrila/')" class="fa-brands fa-linkedin"></i>
+          </div>
+          <p>Socials &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Contact</p>
+          <div>
+            <i onclick="window.location.href='mailto:mindrilavasilevalentin@gmail.com'" class="fa-solid fa-envelope"></i>
+            <i class="fa-solid fa-phone"></i>
+            <i onclick="window.open('valymnd.me/location.html')" class="fa-solid fa-location-dot"></i>
+          </div>
+        </div>
       </section>
 
     </main>

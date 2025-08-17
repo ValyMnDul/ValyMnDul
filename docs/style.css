@@ -598,6 +598,7 @@ main > #team {
 main > #team > h2{
     font-size: 2.5em;
     margin: 0;
+    margin-top: 100px;
     font-family: 'Poppins', sans-serif;
     color: white;
     margin-bottom: 50px;
@@ -684,4 +685,124 @@ main > #contact > h2{
     color: white;
     margin-bottom: 50px;
     user-select: none;
+}
+
+main > #contact > formdiv{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main > #contact > formdiv > form{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main > #contact > formdiv > form > label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    width: 70%;
+    text-align: left;
+    margin-left: 13px;
+    margin-bottom: 7px;
+}
+
+main > #contact > formdiv > form > input,
+main > #contact > formdiv > form > textarea{
+    width: 70%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(64, 64, 64);
+    border: solid white 2px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    color: white;
+    outline: none;
+    transition: all .2s ease-in-out;
+    resize: none;
+    padding: 0 15px;
+}
+
+main > #contact > formdiv > form > textarea{
+    height: 150px;
+    padding: 15px;
+}
+
+main > #contact > formdiv > form > button{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border:none;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    user-select: none;
+}
+
+main > #contact > formdiv > form > button:hover{
+    background-color: rgb(182, 182, 182);
+}
+
+main > #contact > formdiv > form > button:active{
+    background-color: rgb(128, 128, 128);
+}
+
+main > #contact > formdiv > p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+main > #contact > div{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(66, 66, 66);
+    border-radius: 20px;
+    margin-top: 20px;
+    user-select: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+main > #contact > div > p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    margin: 0;
+}
+
+
+main > #contact > div > div > i {
+    font-size: 2.5em;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    
+}
+
+main > #contact > div > div > i:hover {
+    color: rgb(169, 169, 169);
 }

@@ -56,3 +56,30 @@ const focuss=(input)=>{
   }
   focusValue=!focusValue;
 }
+
+
+///Constacts section
+
+const form = document.getElementById("contact-form");
+const status = document.getElementById("form-status");
+
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const data = new FormData(form);
+
+  const response = await fetch("https://formspree.io/f/xqalobyn", {
+    method: "POST",
+    body: data,
+    headers: { 'Accept': 'application/json' }
+  });
+
+  if (response.ok) {
+    status.innerHTML = "✅ Message sent successfully!";
+    form.reset();
+  } else {
+    status.innerHTML = "❌ An error occurred. Please try again.";
+  }
+  window.setTimeout(() => {
+    status.innerHTML = "";
+  }, 3000);
+});
