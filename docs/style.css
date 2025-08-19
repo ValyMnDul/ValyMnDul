@@ -25,17 +25,15 @@ body{
     display: flex;
 }
 
-lightDarkANDPorfolio{
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    width: 100px;
+mobileNav{
+    width: 90%;
     height: 50px;
-    background-color: rgb(64, 64, 64);
+    background-color: transparent;
     display: none;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
+    border: solid rgb(84, 84, 84) 3px;
+    border-radius: 15px;
+    margin: 10px auto;
+    margin-bottom: 0;
 }
 
 .staticHomeBtn{
@@ -946,7 +944,7 @@ main > #contact > div > div > i:hover {
         width: 100%;
     }
 
-    lightDarkANDPorfolio{
+    mobileNav{
         display: flex;
     }
 
@@ -1063,6 +1061,7 @@ main > #contact > div > div > i:hover {
     main > #home > i{
         margin-top: 100px;
         font-size: 2.3em;
+        margin-bottom:100px;
     }
 }
 
