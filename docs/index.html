@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-  <body>
-    <div onclick="window.location.href='#home'" class="staticHomeBtn">
+  <body id="body">
+    <div onclick="window.location.href='#body'" class="staticHomeBtn">
       <i class="fa-solid fa-arrow-up"></i>
     </div>
 
@@ -20,7 +20,7 @@
       </div>
 
       <div class="navLinks">
-        <div onclick="window.location.href='#home'">
+        <div onclick="window.location.href='#body'">
           <i class="fa-solid fa-house"></i>
           <p>Home</p>
         </div>
@@ -52,15 +52,16 @@
       <div class="options">
         <div>
           <i class="fa-solid fa-file"></i>
-          <a href="Portfolio_Assets/CV.pdf" download>Download CV</a>
+          <a href="Portfolio_Assets/CV.pdf" download>Get CV</a>
         </div>
         <i class="fa-solid fa-sun"></i>
       </div>
     </nav>
     <main>
       <mobileNav>
-        <i class="fa-solid fa-file"></i>
-        <a href="Portfolio_Assets/CV.pdf" download>Download CV</a>
+        <a href="#contact">Contact</a>
+        <i class="fa-solid fa-sun"></i>
+        <a href="Portfolio_Assets/CV.pdf" download>Get CV</a>
       </mobileNav>
       <section id="home">
         <h2>Hey,</h2>
@@ -69,22 +70,25 @@
         <p>Driven by a deep passion for technology <br> and continuous learning in the digital world.</p>
         <i onclick="window.location.href='#about'" class="fa-solid fa-arrow-down"></i>
       </section>
-      <!-- <section id="about">
-        <h2>About Me</h2>
+       <section id="about">
         <div>
-          <p>My full name is <span style="color: #6c96e5; font-weight: bold;">Vasile Valentin Mîndrilă</span>.<br>I am a committed Full Stack developer with a strong enthusiasm for technology and programming. I am pursuing a degree in Computer Science and continuously strive to expand my expertise in software development. I regularly take part in hackathons and coding contests, constantly seeking new opportunities to grow. My goal is to build innovative solutions that make a meaningful and positive difference in the world.</p>
-          <school onclick="window.open('https://www.cni-sv.ro/','_blank','noopener','noreferrer')">
-            <h3>Current School</h3>
-            <img src="Portfolio_Assets/cni.png" alt="cni">
-            <p>"Spiru Haret"<br> National College of Informatics</p>
-          </school>
+          <h2>About Me</h2>
           <div>
-            <i onclick="window.open('https://github.com/ValyMnDul', '_blank', 'noopener,noreferrer')" class="fa-brands fa-github"></i>
-            <i onclick="window.open('https://linkedin.com/in/vasilemindrila','_blank','noopener','noreferrer')" class="fa-brands fa-linkedin" style="color:#0A66C2"></i>
-            <i onclick="window.open('https://www.instagram.com/valymnd/','_blank','noopener','noreferrer')" class="fa-brands fa-instagram" style="background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent;display: inline-block;border-radius: 26px;"></i>
+            <p>My full name is <span style="color: #6c96e5; font-weight: bold;">Vasile Valentin Mîndrilă</span>.<br>I am a committed Full Stack developer with a strong enthusiasm for technology and programming. I am pursuing a degree in Computer Science and continuously strive to expand my expertise in software development. I regularly take part in hackathons and coding contests, constantly seeking new opportunities to grow. My goal is to build innovative solutions that make a meaningful and positive difference in the world.</p>
+            <school onclick="window.open('https://www.cni-sv.ro/','_blank','noopener','noreferrer')">
+              <h3>Current School</h3>
+              <img src="Portfolio_Assets/cni.png" alt="cni">
+              <p>"Spiru Haret"<br> National College of Informatics</p>
+            </school>
+            <div>
+              <i onclick="window.open('https://github.com/ValyMnDul', '_blank', 'noopener,noreferrer')" class="fa-brands fa-github"></i>
+              <i onclick="window.open('https://linkedin.com/in/vasilemindrila','_blank','noopener','noreferrer')" class="fa-brands fa-linkedin" style="color:#0A66C2"></i>
+              <i onclick="window.open('https://www.instagram.com/valymnd/','_blank','noopener','noreferrer')" class="fa-brands fa-instagram" style="background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);-webkit-background-clip: text;background-clip: text;-webkit-text-fill-color: transparent;display: inline-block;border-radius: 26px;"></i>
+            </div>
           </div>
         </div>
       </section>
+      <!----
       <section id="skills">
         <h2>Skills</h2>
         <div>
