@@ -25,6 +25,19 @@ body{
     display: flex;
 }
 
+lightDarkANDPorfolio{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(64, 64, 64);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
 .staticHomeBtn{
     position: fixed;
     bottom: 20px;
@@ -202,6 +215,17 @@ main > #home > h1{
     color: #6c96e5;
     font-size: 5em;
     font-weight: 900;
+    user-select: none;
+}
+
+main > #home > img{
+    display: none;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: solid white 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     user-select: none;
 }
 
@@ -807,6 +831,7 @@ main > #contact > div > div > i:hover {
     color: rgb(169, 169, 169);
 }
 
+/* Navbar media queries */
 
 @media screen and (max-height:877px){
     nav > .photo > img{
@@ -911,5 +936,261 @@ main > #contact > div > div > i:hover {
     }
 }
 
+@media screen and (max-width: 820px){
+    nav{
+        display: none;
+    }
 
+    main {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    lightDarkANDPorfolio{
+        display: flex;
+    }
+
+    main > #home > img{
+        display: block;
+    }
+}
+
+/* Home section meadia queries */
+
+@media screen and (max-height: 540px){
+    main > #home > h2{
+        font-size: 4em;
+    }
+
+    main > #home > h1{
+        font-size: 4em;
+    }
+
+    main > #home > p{
+        font-size: 1.7em;
+    }
+
+    main > #home > i{
+        margin-top: 50px;
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-height: 400px){
+    main > #home > h2{
+        font-size: 3.1em;
+    }
+
+    main > #home > h1{
+        font-size: 3.1em;
+    }
+
+    main > #home > p{
+        font-size: 1.3em;
+    }
+
+    main > #home > i{
+        margin-top: 40px;
+        font-size: 2.2em;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    main > #home > h2{
+        font-size: 4em;
+    }
+
+    main > #home > h1{
+        font-size: 4em;
+    }
+
+    main > #home > p{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 1040px){
+    main > #home > h2{
+        font-size: 3.1em;
+    }
+
+    main > #home > h1{
+        font-size: 3.1em;
+    }
+
+    main > #home > p{
+        font-size: 1.3em;
+    }
+
+    main > #home > i{
+        margin-top: 40px;
+        font-size: 2.2em;
+    }
+}
+
+@media screen and (max-width: 920px){
+    main > #home > h2{
+        font-size: 2.6em;
+    }
+
+    main > #home > h1{
+        font-size: 2.6em;
+    }
+
+    main > #home > p{
+        font-size: 1.1em;
+    }
+
+    main > #home > i{
+        margin-top: 40px;
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 820px){
+    main > #home > h2{
+        font-size: 4em;
+    }
+
+    main > #home > h1{
+        font-size: 4em;
+    }
+
+    main > #home > p{
+        font-size: 1.5em;
+    }
+
+    main > #home > i{
+        margin-top: 100px;
+        font-size: 2.3em;
+    }
+}
+
+@media screen and (max-width: 600px){
+    main > #home > h2{
+        font-size: 3.1em;
+    }
+
+    main > #home > h1{
+        font-size: 3.1em;
+    }
+
+    main > #home > p{
+        font-size: 1.3em;
+    }
+
+    main > #home > i{
+        margin-top: 40px;
+        font-size: 2.2em;
+    }
+
+    main > #home > img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    main > #home > h2{
+        font-size: 2.6em;
+    }
+
+    main > #home > h1{
+        font-size: 2.6em;
+    }
+
+    main > #home > p{
+        font-size: 1.1em;
+    }
+
+    main > #home > i{
+        margin-top: 40px;
+        font-size: 2em;
+    }
+
+    main > #home > img{
+        width: 220px;
+        height: 220px;
+    }
+}
+
+
+@media screen and (max-width: 430px){
+    main > #home > h2{
+        font-size: 2.6em;
+    }
+
+    main > #home > h1{
+        font-size: 2.6em;
+    }
+
+    main > #home > p{
+        font-size: 1em;
+        width: 350px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    main > #home > i{
+        margin-top: 40px;
+        font-size: 1.8em;
+    }
+
+}
+
+@media screen and (max-width: 350px){
+    main > #home > h2{
+        font-size: 2.4em;
+    }
+
+    main > #home > h1{
+        font-size: 2.4em;
+    }
+
+    main > #home > p{
+        font-size: 1em;
+        width: 200px;
+        text-align: center;
+    }
+
+    main > #home > i{
+        margin-top: 40px;
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width:280px){
+    main > #home > img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 250px){
+    main > #home > h2{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    main > #home > h1{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    main > #home > p{
+        font-size: .8em;
+        width: 160px;
+        text-align: center;
+    }
+
+    main > #home > i{
+        margin-top: 40px;
+        font-size: 1.8em;
+    }
+
+    main > #home > img{
+        width: 150px;
+        height: 150px;
+    }
+}
 
