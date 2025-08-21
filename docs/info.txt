@@ -1,0 +1,25 @@
+
+/ABOUT SECTION INFO/
+
+height:
+    100vh i
+    auto 1200px-widht
+    auto 600px-height
+
+sectiondiv:
+    m:0 i
+    m:0 100px 1100px-width
+    m:0 25px 1000px-widht
+    m:0 820px-widht
+    m:0 100px 730px-widht
+
+
+h2:
+    2.5em i
+    2.4em 1500px-width
+    2.3em 1350px-width
+    ml:20px 1100px-widht
+
+    mt:50px 520px-width
+    1.8em 520px-width
+    mr:0520px-width
