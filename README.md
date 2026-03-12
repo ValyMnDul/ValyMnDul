@@ -1,6 +1,7 @@
 
 <h2 align="left">Hi 👋! My name is ValyMnDul and I'm a student, from Romania 🇷🇴</h2>
 
+![Hackatime Stats](https://github-readme-stats.hackclub.dev/api/wakatime?username=1619&api_domain=hackatime.hackclub.com&theme=dark&custom_title=Hackatime+Stats&layout=compact&cache_seconds=0&langs_count=8)
 ## Portfolio: https://valymnd.me
 
 <div align="left">
